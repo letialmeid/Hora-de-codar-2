@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+    <script>//Exercício 1 - Escreva um programa em que o usuário informe dois números utilizando o "prompt". Então escreva em tela o maior deles.
+
+       /* var a = prompt("Informe um número");
+        var b = prompt("Informe outro número");
+        if (a > b){
+            alert( a + " é o maior número")
+          
+        }
+        else if ( b > a){
+            alert( b + " é o maior número")
+           
+        }
+        else{
+            alert("Os números são iguais")
+        }
+
+    </script>
+
+    <script>//Exercício 2 - Faça um programa que leia um valor informado pelo usuário e diga se o valor informado é positivo, negativo ou zero.
+
+    /*var valor = prompt ("Informe um valor numérico")
+    if (valor > 0){
+        alert(" Esse número é positivo")
+    }
+    else if (valor < 0){
+        alert(" Esse número é negativo")
+    }
+    else {
+        alert("Esse número é 0")
+    }
+    </script>
+
+    <script>//Exercicío 3. Faça um programa para ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+
+   /*var num1 = prompt("Digite um número")
+    var num2 = prompt("Digite outro número")
+    var num3 = prompt("Digite o terceiro e último número")
+
+    if (num1 > num2 && num1 > num3){
+        alert("O maior número entre os três é " + num1)
+    }
+    else if (num2 > num1 && num2 >num3){
+        alert("O maior número entre os três é " + num2)
+    }
+    else if ( num3 > num1 && num3 > num2){
+        alert("O maior número entre os três é " + num3)
+    }
+
+    </script>
+
+    <script> //Exercício 4. Faça um programa que leia 3 valores informados pelo usuário (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+    /*var num1 = parseInt(prompt("Digite um número"))
+    var num2 = parseInt(prompt("Digite outro número"))
+    var num3 = parseInt(prompt("Digite o terceiro e último número"))
+
+    if (num1 < num2 && num1 < num3){
+        alert(num2 + num3)
+    }
+    else if (num2 < num1 && num2 < num3){
+        alert(num1 + num3)
+    }
+    else if (num3 < num1 && num3 < num2){
+        alert( num1 + num2)
+    }
+
+
+    </script>
+
+    <script>//Exercício 5. Faça um programa que leia 6 valores informados pelo usuário, calcule, exiba os números informados e escreva a média aritmética desses valores lidos.
+    /*var num1 = parseInt(prompt("Digite um número"))
+    var num2 = parseInt(prompt ("Digite um segundo número"))
+    var num3 = parseInt(prompt ("Digite um terceiro número"))
+    var num4 = parseInt(prompt ("Digite um quarto número"))
+    var num5 = parseInt(prompt ("Digite um quinto número"))
+    var num6 = parseInt(prompt ("Digite um sexto número"))
+    var resultado = (num1 + num2 + num3 + num4 + num5 + num6) / 6
+    alert(resultado)
+
+    </script>
+
+    <script>//Exercício 6.Faça um programa que receba quatro valores informados pelo usuário, mas informe somente o primeiro, o último e o maior de todos eles (considere que todos os números informados serão diferentes)
+
+    /*var num1 = parseInt(prompt("Digite um número"))
+    var num2 = parseInt(prompt("Digite um segundo número"))
+    var num3 = parseInt(prompt("Digite um terceiro número"))
+    var num4 = parseInt(prompt("digite um quarto e último número"))
+
+    alert( "Esse foi o primeiro número informado: " + num1)
+
+    alert( "Esse foi o último número informado: " + num4)
+
+    if (num1> num2 && num1 >num3 && num1 > num4){
+        alert( num1 + " é o maior número entre os quatro")
+    }
+    if (num2> num1 && num2 >num3 && num2 > num4){
+        alert( num2 + " é o maior número entre os quatro")
+    }
+    if (num3> num1 && num3 >num2 && num3 > num4){
+        alert( num3 + " é o maior número entre os quatro")
+    }
+    if (num4> num1 && num4 >num2 && num4 > num3){
+        alert( num4 + " é o maior número entre os quatro")
+    }
+
+
+    </script>
+
+
+    <script> //Exercício 7. Faça um programa que leia 6 números que o usuário vai informar. Todos os números lidos com valor inferior a 72 devem ser somados. Escreva o valor final da soma efetuada e também todos valores que o usuário informou. 
+
+    /*var num1 = prompt("Digite um número")
+    var num2 = prompt ("Digite um segundo número")
+    var num3 = prompt ("Digite um terceiro número")
+    var num4 = prompt ("Digite um quarto número")
+    var num5 = prompt ("Digite um quinto número")
+    var num6 = prompt ("Digite um sexto número")
+
+    </script>
+
+    <script>//Exercício 8. Escreva um programa que calcule a média de quatro números informados pelo usuário, mas somente se esses números forem maiores que 0 e menores que 10. No final, se a média for maior que cinco o usuário receberá uma mensagem "Você passou no teste". Em qualquer outra situação, ele receberá uma mensagem de "tente novamente"
+
+   /* var num1 = parseInt(prompt("Digite um número"))
+    var num2 = parseInt(prompt("Digite um segundo número"))
+    var num3 = parseInt(prompt("Digite um terceiro número"))
+    var num4= parseInt(prompt("Digite um quarto número"))
+    
+    if (0> num1, num2, num3, num4 < 10 ){
+        var media= alert( (num1 + num2 + num3 + num4)/ 4)
+    }
+    if (5< media){
+        alert("Você passou no teste")
+    }
+    else{
+        alert("Tente novamente...")
+    }
+
+
+
+    </script>
+
+    <script>//Exercício 9. Escreva um programa para ler o ano de nascimento de uma pessoa e escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que ela nasceu).
+
+    /*var nascimento_ano = prompt ("Em qual ano você nasceu?")
+    var conta = 2024 - nascimento_ano
+    var idade = conta
+
+    if (conta >= 16 ){
+        alert("Você está apto a votar")
+    }
+    else {
+        alert(" Você não está apto a votar")
+    }
+
+    </script>
+
+    <script>//Exercício 10. Tendo como entrada a altura e o sexo (codificado da seguinte forma: 1: feminino 2: masculino) de uma pessoa, construa um programa que calcule e imprima seu peso ideal
+
+    var altura = parseInt(prompt("Informa a sua altura"))
+    var genero = parseInt(prompt("Informe o seu genêro"))
+
+    if ( genero == feminino){
+        alert( "Seu peso ideal é " + ((62.1 * altura) - 44.7) )
+    }
+    else if ( genero == masculino){
+        alert ( "Seu peso ideal é " + ((72.7 * altura ) -58 ))
+    }
+    else {
+        alert("ERRO!")
+    }
+
+
+
+    </script>
+
+    
+</head>
+<body>
+    
+</body>
+</html>
